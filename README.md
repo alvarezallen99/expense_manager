@@ -1,5 +1,10 @@
 # Expense Manager
 
+##Create Database Name
+expense_manager
+
+#Default MySQL Credentials is root and password admin please modify .env
+
 ##Composer
 When checking out the project, be sure to run
 
@@ -13,6 +18,10 @@ Once you've run composer install, run
 For build the frontend app simply run
 
 `npm run --watch`
+
+For build for production simply run
+
+`npm run --prod`
 
 ##Database Migration
 `php artisan migrate --seed`
