@@ -19,9 +19,9 @@ For build the frontend app simply run
 
 `npm run --watch`
 
-For build for production simply run
+For build for production minified simply run
 
-`npm run --prod`
+`npm run prod`
 
 ##Database Migration
 `php artisan migrate --seed`
